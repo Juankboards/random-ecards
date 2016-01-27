@@ -1,0 +1,81 @@
+html, html body, .container {
+	background-color: #FFFFFA;
+}
+
+.container {			
+	margin-top: 25px;
+}
+
+p {
+	font-family: 'Open sans', sans serif;
+	font-size: 2em;
+}
+
+#title {
+	font-family: 'Playball', cursive;
+	font-weight: 2em;
+	font-size: 5em;
+	margin: 0;
+}
+
+img {
+	width: 90%;	
+	padding-top: 12px;	
+	margin: 0 auto;
+}
+
+p a {
+	text-decoration: none;
+	color: #555;	
+}
+
+
+ p a:hover, footer a:hover {
+ 	text-decoration: none;
+ 	font-style: italic;
+ 	color: #888;
+ }
+
+.row {
+	display: table-row;
+	height: 580px;
+}
+
+.col-left, .col-rigth {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+#text-section {
+	padding: 0 100px;
+}
+
+#share-buttons img {
+	display: inline-block;
+	width: 20%;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	margin-top: 25px;	
+}
+
+footer a {
+	text-decoration: none;
+	color: #333;
+	font-style: italic;
+}
+
+#copyleft {
+	display: inline-block;
+	text-align: right;
+	margin: 0px;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
